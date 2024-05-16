@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin("${codemo.cors}")
 public class ItemController {
     private final ItemRepository itemRepository;
 
